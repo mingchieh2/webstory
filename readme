@@ -2,3 +2,6 @@
 <amp-anim>: 這是AMP的動畫元件。這對於加載及管理.gif動畫特別有用。 如果你的圖片是GIF格式的，或者有被包裹在GIF中的動態畫面，你可能會想要使用這個元件。
 <amp-carousel>: 這也是AMP的元件之一，它可以讓你創建圖片的滾動展示。如果你想讓多張圖片在一個框架內進行輪播顯示，那麼這是一個很好的選擇。
 <amp-img> : image
+
+amp-img does not suport title/subject,body. need to use <div>/<p> ... to do that
+
