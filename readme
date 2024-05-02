@@ -13,3 +13,22 @@ amp-img does not suport title/subject,body. need to use <div>/<p> ... to do that
 </amp-story-page>
 
 auto-advance-after="3s" ==> move to next slide in 3 secs
+
+
+There are several ways to add text to a Web Story:
+
+Directly with HTML: 
+In HTML, you can use elements like <h1>, <h2>, <p> etc. to add text. 
+Further, CSS offers a rich variety of ways to adjust the style of your text, such as the size, color, background, positioning, etc.
+
+Containers: 
+You can embed text inside of containers. This method can better combine text with other elements, such as images.
+
+CSS Masks: 
+If you want to add text without altering your background image, you can use CSS masks.
+
+SVG Text: 
+As compared to traditional HTML text, SVG text allows you to do more complex operations, such as arranging text along any path.
+
+JavaScript: 
+You can create and manipulate HTML text using JavaScript. This method is very useful when you need to make more dynamic and interactive effects.
