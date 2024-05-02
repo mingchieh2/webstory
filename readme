@@ -5,3 +5,11 @@
 
 amp-img does not suport title/subject,body. need to use <div>/<p> ... to do that
 
+<amp-story-page id="page-3" auto-advance-after="3s">
+  <amp-story-grid-layer template="fill">
+    <amp-img src="https://p19-flow-sign-sg.ciciai.com/ocean-cloud-tos-sg/7a2561272b784890a7a45aa9ea7132a2.png~tplv-0es2k971ck-image.png?rk3s=18ea6f23&x-expires=1746187956&x-signature=TmPvmo7N2J4XfCbK%2FXqaQDdRtPE%3D" width="720" height="1280" layout="responsive"></amp-img>
+    <p class="image-text">this is image %id%</p>
+  </amp-story-grid-layer>
+</amp-story-page>
+
+auto-advance-after="3s" ==> move to next slide in 3 secs
